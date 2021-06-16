@@ -1,1 +1,1 @@
-sampleproject==2.0.0
+google-crc32c==1.1.2
