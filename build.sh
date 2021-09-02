@@ -3,7 +3,7 @@
 set -e
 
 # install dependencies
-apk add --no-cache gcc libffi-dev musl-dev
+# apk add --no-cache gcc libffi-dev musl-dev
 
 # build
-pip wheel --no-deps --requirement requirements.txt
+CRC32C_PURE_PYTHON=1 pip wheel --no-deps --requirement requirements.txt
