@@ -18,6 +18,7 @@ cmake \
     -DBUILD_SHARED_LIBS=yes \
     ..
 make all install
+cd /workspace
 
 # build
 pip wheel --no-deps --requirement requirements.txt
