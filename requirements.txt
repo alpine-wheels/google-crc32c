@@ -1,1 +1,1 @@
-google-crc32c==1.3.0
+google-crc32c==1.5.0
